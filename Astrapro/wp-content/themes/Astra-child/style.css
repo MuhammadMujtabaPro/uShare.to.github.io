@@ -1,0 +1,85 @@
+/*
+ Theme Name:   Astra child
+ Theme URI:    https://developer.wordpress.org/
+ Description:  Astra Child child is a child theme of wordpress Astra Child theme. This theme is fully fucntional and ready to be used blog and etc.
+ Astra Child Child is fast, fully customizable & beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront.
+ It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind,
+ Astra Child comes with Schema.org code integrated and is Native AMP ready so search engines will love your site.
+ It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc.
+ Some of the other features: # WooCommerce Ready # Responsive # RTL & Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. 
+ Looking for a perfect base theme? Look no further. Astra Child is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website! 
+ Author:       Muhammad Mujtaba
+ Author URI:   https://developer.wordpress.org/
+ Template:     Astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom-menu, custom-logo, entertainment, one-column, two-columns, left-sidebar, e-commerce, right-sidebar, custom-colors, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, theme-options, threaded-comments, translation-ready, blog
+ Text Domain:  Astra-child #FF7A3D
+*/
+
+
+/* navbar dropdown style */
+
+.elementskit-navbar-nav-default .elementskit-navbar-nav>li>a {
+
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+/* form-styling */
+/*form title style*/
+#wpforms-form-376 .wpforms-head-container .wpforms-title{
+	font-family : lato;
+	font-style: normal;
+    word-break: break-word;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    margin-top: 8px;
+}
+/*form btn style*/
+div.wpforms-container-full .wpforms-form input[type=submit], 
+div.wpforms-container-full .wpforms-form button[type=submit], 
+div.wpforms-container-full .wpforms-form .wpforms-page-button  {
+
+	padding: 15px 190px 15px 190px;
+    background-color: #03a9f4;
+    color: white;
+}
+/*form textarea width control*/
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+  
+    width: 425px;
+	
+}
+   
+/*form lable style*/
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+	
+		
+	    font-weight: 400;
+		color: #2a2828d9;
+		
+		
+    
+}
+/*field boder style*/
+div.wpforms-container-full .wpforms-form .wpforms-field .wpforms-field-medium {
+	
+	border : 1px solid #a9a9a9;
+	
+}
+
+
+
+/*#ast-desktop-header .ast-above-header-wrap{
+	background-color : #ff5100;
+}
+
+.ast-desktop .ast-builder-menu-1 .menu-item .sub-menu .menu-item:last-child .menu-link {
+    border-bottom-width: 0;
+    color: #ff5100;
+}
+*/
